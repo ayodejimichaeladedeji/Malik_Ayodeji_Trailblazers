@@ -1,8 +1,8 @@
 name: Ayodeji and Malik
 
 on:
-  push:
-    branches: [ "master" ]
+#   push:
+#     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
@@ -25,9 +25,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run unit test
-      run: |
-        python -m unittest discover tests
     - name: Run unit test
       run: |
         python -m unittest discover tests
