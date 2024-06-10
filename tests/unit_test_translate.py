@@ -1,10 +1,13 @@
+import sys
+import os
 import unittest
-from email_classifier import email_classifier
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.email_classifier import email_classifier
 
-class TestCalculator(unittest.TestCase):
+class unit_test_translate(unittest.TestCase):
 
     def setUp(self):
-        self.email_classifier = email_classifier()
+        self.email_classifier = email_classifier("AppGallery.csv")
 
     def test_translate_method(self):
         self.assertEqual(self.email_classifier

@@ -1,11 +1,11 @@
-import stanza # type: ignore
+# import stanza # type: ignore
 import numpy as np
 import pandas as pd
 import seaborn as sns
-import xgboost as xgb # type: ignore
+# import xgboost as xgb # type: ignore
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
-from stanza.pipeline.core import DownloadMethod # type: ignore
+# from stanza.pipeline.core import DownloadMethod # type: ignore
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
