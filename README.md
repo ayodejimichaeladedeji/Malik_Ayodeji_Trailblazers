@@ -1,1 +1,1 @@
-# Malik_Ayodeji_Trailblazers
+Malik and Ayodeji - Engineering and Evaluating Artificial Intelligence assignmeny
