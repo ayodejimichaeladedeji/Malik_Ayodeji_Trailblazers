@@ -70,16 +70,17 @@ Evaluation and Results
 After training the model, it is evaluated using various metrics:
 
 ## Accuracy
-F1 Score
-Precision
-Recall
-Confusion Matrix
-Performance Metrics
-Future Work
-Implement advanced data preprocessing techniques.
-Enhance noise reduction methods.
-Improve text representation models.
-Incorporate customer feedback for continuous improvement.
+- F1 Score
+- Precision
+- Recall
+- Confusion Matrix
+
+## Performance Metrics
+- Future Work
+- Implement advanced data preprocessing techniques.
+- Enhance noise reduction methods.
+- Improve text representation models.
+- Incorporate customer feedback for continuous improvement.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
