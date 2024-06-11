@@ -15,10 +15,8 @@ This project aims to create an AI-driven email classification system using vario
 To install the necessary dependencies, run:
 ```bash
 pip install -r requirements.txt
-
+```
 ## Directory Structure
-
-
 .
 ├── .github/workflows
 │   └── python-app.yml
@@ -30,30 +28,32 @@ pip install -r requirements.txt
 ├── AppGallery.csv
 ├── README.md
 ├── requirements.txt
+
 .github/workflows/python-app.yml: GitHub Actions configuration for CI/CD.
 src/email_classifier.py: Main script for email classification.
 tests/test_translate.py: Unit tests for the translation function.
 AppGallery.csv: Sample dataset.
 requirements.txt: List of dependencies.
-Getting Started
+
+## Getting Started
 Clone the Repository
-bash
-Copy code
+```bash
 git clone https://github.com/maaft75/Malik_Ayodeji_Trailblazers.git
 cd Malik_Ayodeji_Trailblazers
-Running the Classifier
+```
+## Running the Classifier
 Ensure you have the required dataset (AppGallery.csv) in the project directory. Run the main script:
 
-bash
-Copy code
+```bash
 python src/email_classifier.py
-Running Tests
+```
+## Running Tests
 To run the unit tests, use:
 
-bash
-
+```bash
 python -m unittest discover tests
-Project Workflow
+```
+## Project Workflow
 The workflow follows the Extreme Programming (XP) Agile methodology with the following steps:
 
 Data Selection: Select and preprocess relevant data.
@@ -67,7 +67,7 @@ Continuous Integration: Use GitHub Actions for automated testing and deployment.
 Evaluation and Results
 After training the model, it is evaluated using various metrics:
 
-Accuracy
+## Accuracy
 F1 Score
 Precision
 Recall
@@ -78,8 +78,9 @@ Implement advanced data preprocessing techniques.
 Enhance noise reduction methods.
 Improve text representation models.
 Incorporate customer feedback for continuous improvement.
-Contributing
+
+## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
