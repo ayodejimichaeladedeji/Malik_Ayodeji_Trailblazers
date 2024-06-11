@@ -58,18 +58,18 @@ python -m unittest discover tests
 ## Project Workflow
 The workflow follows the Extreme Programming (XP) Agile methodology with the following steps:
 
-Data Selection: Select and preprocess relevant data.
-Data Grouping: Organize emails into logical groups.
-Language Handling: Translate non-English emails.
-Noise Reduction: Remove redundant and irrelevant content.
-Feature Extraction: Convert text data to numerical data using TF-IDF.
-Imbalanced Data Handling: Balance the dataset.
-Model Training and Testing: Train and evaluate the XGBoost model.
-Continuous Integration: Use GitHub Actions for automated testing and deployment.
-Evaluation and Results
-After training the model, it is evaluated using various metrics:
+- **Data Selection:** Select and preprocess relevant data.
+- **Data Grouping:** Organize emails into logical groups.
+- **Language Handling:** Translate non-English emails.
+- **Noise Reduction:** Remove redundant and irrelevant content.
+- **Feature Extraction:** Convert text data to numerical data using TF-IDF.
+- **Imbalanced Data Handling:** Balance the dataset.
+- **Model Training and Testing:** Train and evaluate the XGBoost model.
+- **Continuous Integration:** Use GitHub Actions for automated testing and deployment.
 
-## Accuracy
+## Evaluation and Results
+After training the model, it is evaluated using various metrics:
+- Accuracy
 - F1 Score
 - Precision
 - Recall
