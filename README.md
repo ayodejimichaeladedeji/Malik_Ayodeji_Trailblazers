@@ -1,4 +1,4 @@
-# Email Classification using AI
+# Xtreme Programming (XP) Agile Methods for AI Email Classification Project
 
 ## Project Overview
 This project aims to create an AI-driven email classification system using various machine learning and natural language processing (NLP) techniques. The system processes customer emails, translates them if necessary, removes noise, and classifies them into predefined categories to automate responses and improve customer service efficiency.
