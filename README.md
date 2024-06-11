@@ -17,23 +17,25 @@ To install the necessary dependencies, run:
 pip install -r requirements.txt
 ```
 ## Directory Structure
-.
-├── .github/workflows
-│   └── python-app.yml
-├── src
+```
+├── .github/
+│   └── workflows/
+│       └── python-app.yml
+├── src/
 │   └── email_classifier.py
-├── tests
+├── tests/
 │   └── test_translate.py
 ├── .gitignore
 ├── AppGallery.csv
 ├── README.md
 ├── requirements.txt
-
-.github/workflows/python-app.yml: GitHub Actions configuration for CI/CD.
-src/email_classifier.py: Main script for email classification.
-tests/test_translate.py: Unit tests for the translation function.
-AppGallery.csv: Sample dataset.
-requirements.txt: List of dependencies.
+```
+## Description of Files and Directories
+- **.github/workflows/python-app.yml:**  GitHub Actions configuration for CI/CD.
+- **src/email_classifier.py::** Main script for email classification.
+- **tests/test_translate.py:** Unit tests for the translation function.
+- **AppGallery.csv:**  Sample dataset.
+- **requirements.txt:** List of dependencies.
 
 ## Getting Started
 Clone the Repository
